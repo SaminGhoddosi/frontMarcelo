@@ -4,25 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela</title>
-        <link rel="icon" type="image/jpeg" href="assests/FotoSamin.jpeg">
+        <link rel="icon" type="image/jpg" href="assests/DSC01460.jpg">
 
 </head>
 <body>
-    <h1 id="titulo">Tabela</h1>
-    <table border="1" width="100%" height="50%">
-      <tr>
-        <td align="left">Linha 1 Coluna 1</td>
-        <td align="center">Linha 1 Coluna2</td>
-        <td align="right">Linha 1 Coluna3</td>
-      </tr>
-        <tr>
-            <td valign="top">Linha 2 Coluna 1</td>
-            <td valign="middle">Linha 2 Coluna2</td>
-            <td valign="bottom">Linha 3 Coluna 3</td>
-            </tr>
+    <h1 id="Titulo">Exercício tabela</h1>
+    <table border="1" >
+     <tr>
+        <td align="right">Nome</td>
+        <td><input type="text"></td>
+        <td rowspan="2">
+            <img width="100" src="assests/DSC01460.jpg" alt="Foto Samin">
+        </td>
+     </tr>
+     <tr>
+        <td align="right">Email</td>
+        <td><input type="email"></td>
+        <!--<td>Linha2 Coluna3</td>-->
+     </tr>
+     <tr>
+        <td align="right">Senha</td>
+        <td><input type="password"></td>
+         <td><input type="password"></td>
+     </tr>
+     <tr>
+        <td>Qual Semestre?</td>
+        <td colspan="2"
+        valign="top" align="center">
+        opções: 1,2 ou outro
+        <select name="" id="">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+        </select></td>
+     </tr>
+     <tr>
+        <td colspan="4">
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </td>
+     </tr>
     </table>
     <br>
-    <a href="#titulo">
+    <a href="#Titulo">
         <p>Topo</p>
     </a>
     <a href="home.html">

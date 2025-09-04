@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 09_03</title>
+    <style>
+     div{
+        width: 100px;
+        height: 100px;
+   
+        align-content: center;
+        text-align: center;
+     }
+     .quadrada{
+     }
+     .redonda{
+         border: 1px solid #555;
+        border-radius: 50%;
+
+     }
+     #div_A{
+        color: red;
+
+    
+     }
+     #div_A:hover{
+        background-color: yellow;
+        cursor:pointer;
+     }
+    #div_B{
+            background-color: rgb(26, 26, 163);
+            color: white;
+        }
+    #div_B:hover{
+        background-color: red;
+        color: black;
+        font-size: 40px;
+        transition: 10s;
+    }
+    #div_C{
+        background-color: green;
+        color: white;
+    }
+    #div_C:hover{
+        background-color: yellow;
+        color: black;
+        font-size: 40px;
+        transition: 10s;
+    }
+    #div_D{
+        background-color: orange;
+        color: white;
+    }
+    #div_D:hover{
+        background-color: red;
+        color: black;
+        font-size: 40px;
+        transition: 1s;
+    }
+    #div_D:active{
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        transition: 1s;
+    }
+    #botao{
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+        background-color: blue;
+        color: white;
+        border-radius: 10px;
+    }
+    #botao:hover{
+        background: red;
+        cursor:pointer;
+    }
+    #botao:active{
+        background: black;
+        color: white;
+        border: 20px solid yellow;
+    }
+    #botao:focus{
+        background: green;
+        color: white;
+        border: 20px solid yellow;
+    }
+    </style> 
+</head>
+<body>
+     <h2>Pseudo-classes
+        <a href="https://www.youtube.com/watch?v=ugbjy9Kyolw&list=PL8pqj_G48F3LDIHWQuwlJYUaWX6fSjRmZ&index=3">Video</Video></a>
+     </h2>
+     <input type="button" id="botao" value="Clique em mim" onclick="alert('Obrigado por clicar!')">
+     <input type="text" placeholder="Digite algo e veja a mágica!">
+     <div id="div_A" class="quadrada">A</div>
+     <div id="div_B" class="quadrada">Karin</div>
+     <div id="div_C" class="redonda">C</div>
+     <div id="div_D" class="redonda">D</div>
+     <
+
+</body>
+</html>

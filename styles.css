@@ -1,0 +1,18 @@
+html{
+    margin: 10px;
+}
+#botao{
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.3s;
+}
+#senha{
+    color:red;
+     margin: 10px;
+}
+#botao:hover{
+    background-color: rgb(20, 113, 201);
+}
+#botao:active{
+     transform: scale(1.1);
+}
